@@ -1,0 +1,64 @@
+protein,model,best_ft_experiment,EF1_ft_minus_cold,AUPRC_ft_minus_cold,EF1_ft_minus_original,AUPRC_ft_minus_original,effect_vs_cold,effect_vs_original
+BRD4,HitScreen,Frozen DEL FT 1:1,2.833000000000001,0.376,-2.34,-0.247,clear_gain_vs_cold,below_original
+BRD4,GraphBAN,V4 FT 1:1 lr=5e-6 ep10,3.944827586206896,0.1575417418026251,0.922988505747127,0.0321228241773753,clear_gain_vs_cold,exceeds_original
+BRD4,ColdstartCPI,FreezeFeature FT 1:10 lr=1e-5 ep10,6.170114942528736,0.2286040983618766,1.9850574712643685,0.0738116663487745,clear_gain_vs_cold,exceeds_original
+BRD4,PSICHIC,BRD4_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to5_stage1_head_pool_attn_lr5e6_ep10_screen,6.779,0.282,2.0989999999999998,0.172,clear_gain_vs_cold,exceeds_original
+BRD4,DTIAM,cold_v4_frozen_head_ft_ratio_1to10,6.385057471264367,0.3817852780948333,4.0712643678160925,0.2487401083446189,clear_gain_vs_cold,exceeds_original
+BRD4,ConPLex,delft_coldv4_ratio_1to1,3.12295259529355,0.1367808624178952,-0.7712554992425362,-0.0455517395106186,clear_gain_vs_cold,below_original
+BRD4,MMF-DTI,delft_coldv4_ratio_1to10,5.070114942528736,0.1382074512675871,-3.527586206896551,-0.1729186372904703,clear_gain_vs_cold,below_original
+sEH,HitScreen,Frozen DEL FT 1:5,5.219,0.156,-4.202,-0.611,clear_gain_vs_cold,below_original
+sEH,GraphBAN,V4 FT 1:5 lr=5e-6 ep10,3.2690763052208838,0.1417643329227313,1.236947791164659,0.1255518079154047,clear_gain_vs_cold,exceeds_original
+sEH,ColdstartCPI,FreezeFeature FT 1:10 lr=1e-5 ep10,2.562248995983936,0.0832505175665992,-7.6425702811245,-0.4464569580776665,clear_gain_vs_cold,below_original
+sEH,PSICHIC,sEH_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to5_stage1_head_pool_attn_lr5e5_ep10_screen,0.752,0.0539999999999999,-8.181999999999999,-0.399,clear_gain_vs_cold,below_original
+sEH,DTIAM,cold_v4_frozen_head_ft_ratio_1to10,4.461847389558233,0.1345109741161455,-6.184738955823295,-0.4317504786269055,clear_gain_vs_cold,below_original
+sEH,ConPLex,delft_coldv4_ratio_1to10,4.02008032128514,0.1900381499050517,-1.855421686746988,-0.2726382191312782,clear_gain_vs_cold,below_original
+sEH,MMF-DTI,delft_coldv4_ratio_1to5,0.3975903614457832,0.0044547749476765,-9.409638554216867,-0.516763429000903,partial_gain_vs_cold,below_original
+PARP2,HitScreen,DUD-E FT 1:1 lr=5e-5 ep10,26.465,0.28,,,clear_gain_vs_cold,not_recomputed_for_DUDEgen_update
+PARP2,GraphBAN,PARP2_DUDEgen_1to10_ratio_1to1_v4pretrain_freeze_bcnmlp_lr5e6_ep10,17.123905723905718,0.1643902321750087,,,clear_gain_vs_cold,not_recomputed_for_DUDEgen_update
+PARP2,ColdstartCPI,dudegen_coldv4_freezeFeature_ratio_1to10_lr5e-6_ep10,12.691836007130124,0.0875821465359008,,,clear_gain_vs_cold,not_recomputed_for_DUDEgen_update
+PARP2,PSICHIC,PARP2_CHEMBL10_HitScreen_cold_v4_ft_DUDEgen_1to10_ratio_1to10_stage1_head_pool_attn_lr5e6_ep10_screen,12.121,0.127,,,clear_gain_vs_cold,not_recomputed_for_DUDEgen_update
+PARP2,DTIAM,cold_v4_frozen_head_ft_DUDEgen_ratio_1to10,19.742856011091305,0.1858379243439989,,,clear_gain_vs_cold,not_recomputed_for_DUDEgen_update
+PARP2,ConPLex,delft_coldv4_ratio_1to5,4.230612002376708,0.0971151090601728,,,clear_gain_vs_cold,not_recomputed_for_DUDEgen_update
+PARP2,MMF-DTI,dudegen_coldv4_freezeBackbone_ratio_1to10,-0.4029154287977814,0.023600925727421,,,partial_gain_vs_cold,not_recomputed_for_DUDEgen_update
+CK1d,HitScreen,Frozen DEL FT 1:5,9.407,0.549,-0.6509999999999998,-0.1019999999999999,clear_gain_vs_cold,below_original
+CK1d,GraphBAN,V4 FT 1:1 lr=5e-6 ep10,3.163398692810458,0.0288643478735278,-3.450980392156862,-0.4407165914816789,clear_gain_vs_cold,below_original
+CK1d,ColdstartCPI,FreezeFeature FT 1:5 lr=1e-5 ep10,-1.4379084967320257,-0.0183224200026135,-9.418300653594772,-0.6484973765282633,worse_vs_cold,below_original
+CK1d,PSICHIC,CK1d_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to1_stage1_head_pool_attn_lr5e6_ep10_screen,3.763,0.053,-4.848,-0.4459999999999999,clear_gain_vs_cold,below_original
+CK1d,DTIAM,cold_v4_frozen_head_ft_ratio_1to10,6.03921568627451,0.2434755939941388,-1.8692810457516345,-0.4195001046020514,clear_gain_vs_cold,below_original
+CK1d,ConPLex,delft_coldv4_ratio_1to10,1.797267387418064,0.2131547798833388,-6.757725376691919,-0.2963806897572152,clear_gain_vs_cold,below_original
+CK1d,MMF-DTI,delft_coldv4_ratio_1to10,0.0,-0.0256390363793815,-6.542483660130717,-0.4019704372305471,worse_vs_cold,below_original
+MAPK14,HitScreen,Frozen DEL FT 1:1,-2.437000000000001,-0.121,-3.257,-0.321,worse_vs_cold,below_original
+MAPK14,GraphBAN,V4 FT 1:1 lr=5e-6 ep10,-0.5617021276595757,-0.1340978974594922,-0.6787234042553187,-0.1779857353212877,worse_vs_cold,below_original
+MAPK14,ColdstartCPI,FreezeFeature FT 1:5 lr=1e-5 ep10,2.64468085106383,0.1753148923206749,-0.3042553191489361,-0.097255379573021,clear_gain_vs_cold,below_original
+MAPK14,PSICHIC,MAPK14_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to1_stage1_head_pool_attn_lr5e6_ep10_screen,5.320000000000001,0.213,0.0940000000000012,-0.0529999999999999,clear_gain_vs_cold,partly_exceeds_original
+MAPK14,DTIAM,cold_v4_frozen_head_ft_ratio_1to5,2.012765957446807,-0.1475681673018,-0.5382978723404257,-0.3855886839805967,partial_gain_vs_cold,below_original
+MAPK14,ConPLex,delft_coldv4_ratio_1to5,3.884940837401333,0.0998605229091556,-2.3403258056634524,-0.1818697719460609,clear_gain_vs_cold,below_original
+MAPK14,MMF-DTI,delft_coldv4_ratio_1to5,3.8851063829787233,0.0813110282651694,-0.4212765957446818,-0.1645546452892974,clear_gain_vs_cold,below_original
+AuroraA,HitScreen,Frozen DEL FT 1:1,0.6189999999999998,-0.0709999999999999,-1.032,-0.159,partial_gain_vs_cold,below_original
+AuroraA,GraphBAN,V4 FT 1:1 lr=5e-6 ep10,-2.3718750000000006,-0.2139313113091047,-5.053125,-0.4991541913675782,worse_vs_cold,below_original
+AuroraA,ColdstartCPI,FreezeFeature FT 1:10 lr=1e-5 ep10,1.7531250000000007,0.2104570821899899,0.2750000000000003,-0.0547924597007496,clear_gain_vs_cold,partly_exceeds_original
+AuroraA,PSICHIC,AuroraA_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to10_stage1_head_pool_attn_lr5e6_ep10_screen,0.9299999999999996,0.0999999999999999,-0.4809999999999998,-0.028,clear_gain_vs_cold,below_original
+AuroraA,DTIAM,cold_v4_frozen_head_ft_ratio_1to5,-2.750000000000001,-0.4507090565541302,-3.9875,-0.5750970934648324,worse_vs_cold,below_original
+AuroraA,ConPLex,delft_coldv4_ratio_1to5,1.4437048348244996,0.0165091038638554,-0.8593481159669647,-0.1952224452931875,clear_gain_vs_cold,below_original
+AuroraA,MMF-DTI,delft_coldv4_ratio_1to10,2.921875,0.1192488415007743,-0.34375,-0.2106322141268156,clear_gain_vs_cold,below_original
+DDR1,HitScreen,Frozen DEL FT 1:1,-0.3530000000000015,0.138,-1.620000000000001,-0.129,partial_gain_vs_cold,below_original
+DDR1,GraphBAN,V4 FT 1:5 lr=5e-6 ep10,0.9808917197452228,0.0364471274655666,-4.764331210191083,-0.1208894665536204,clear_gain_vs_cold,below_original
+DDR1,ColdstartCPI,FreezeFeature FT 1:10 lr=1e-5 ep10,-3.082802547770701,0.0541516377477344,-5.114649681528662,-0.0165086152852347,partial_gain_vs_cold,below_original
+DDR1,PSICHIC,DDR1_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to10_stage1_head_pool_attn_lr5e5_ep10_screen,-2.324,0.145,-1.338,0.138,partial_gain_vs_cold,partly_exceeds_original
+DDR1,DTIAM,cold_v4_frozen_head_ft_ratio_1to5,3.3630573248407654,0.4343769579831016,2.452229299363059,0.4069014087811023,clear_gain_vs_cold,exceeds_original
+DDR1,ConPLex,delft_coldv4_ratio_1to10,1.4712433838701011,0.1898492870417366,4.2736117340988615,0.2699808425649849,clear_gain_vs_cold,exceeds_original
+DDR1,MMF-DTI,delft_coldv4_ratio_1to10,-0.9108280254777072,0.0482011416523427,-4.273885350318471,0.0237979679468228,partial_gain_vs_cold,partly_exceeds_original
+CK1a,HitScreen,Frozen DEL FT 1:5,0.0,0.104,-6.200999999999999,-0.1189999999999999,partial_gain_vs_cold,below_original
+CK1a,GraphBAN,V4 FT 1:1 lr=5e-6 ep10,-2.2,0.0323616795117849,-0.7333333333333333,-0.0103049628129553,partial_gain_vs_cold,below_original
+CK1a,ColdstartCPI,FreezeFeature FT 1:5 lr=1e-5 ep10,0.0,-0.0287318681422608,0.0,-0.076212235641325,worse_vs_cold,below_original
+CK1a,PSICHIC,CK1a_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to5_stage1_head_pool_attn_lr5e5_ep10_screen,1.55,-0.049,-0.776,-0.076,partial_gain_vs_cold,below_original
+CK1a,DTIAM,cold_v4_frozen_head_ft_ratio_1to5,-4.4,-0.0488793359072121,-8.8,-0.2545803797628179,worse_vs_cold,below_original
+CK1a,ConPLex,delft_coldv4_ratio_1to5,2.2,-0.0033108567177233,-1.4666666666666672,-0.12165549365275,partial_gain_vs_cold,below_original
+CK1a,MMF-DTI,delft_coldv4_ratio_1to1,-2.933333333333333,-0.0374596230051947,0.0,-0.0564975602609625,worse_vs_cold,below_original
+CAIX,HitScreen,Frozen DEL FT 1:10,0.9850000000000004,-0.0069999999999999,-2.913,-0.5790000000000001,partial_gain_vs_cold,below_original
+CAIX,GraphBAN,V4 FT 1:1 lr=5e-6 ep10,-3.059047619047618,-0.1866026265072304,0.3142857142857145,-0.0150123520774498,worse_vs_cold,partly_exceeds_original
+CAIX,ColdstartCPI,FreezeFeature FT 1:10 lr=1e-5 ep10,-3.582857142857143,-0.114407399175112,0.2514285714285715,0.0569626217940192,worse_vs_cold,exceeds_original
+CAIX,PSICHIC,CAIX_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to1_stage1_head_pool_attn_lr5e6_ep10_screen,-0.5449999999999999,-0.125,1.95,-0.189,worse_vs_cold,partly_exceeds_original
+CAIX,DTIAM,cold_v4_frozen_head_ft_ratio_1to5,-5.11238095238095,-0.4378426776670608,-5.699047619047618,-0.5397569649939424,worse_vs_cold,below_original
+CAIX,ConPLex,delft_coldv4_ratio_1to10,0.4399999999999999,-0.0113021820540595,-1.697142857142857,-0.1877133190794915,partial_gain_vs_cold,below_original
+CAIX,MMF-DTI,delft_coldv4_ratio_1to1,-4.965714285714286,-0.203851328560117,-2.849523809523809,-0.1120293861542825,worse_vs_cold,below_original

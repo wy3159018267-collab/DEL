@@ -1,0 +1,10 @@
+target,clear_gain_models,partial_gain_models,worse_models,mean_delta_AUPRC,mean_delta_EF1,response_class
+BRD4,7,0,0,0.24298849027783104,4.9007239339746125,robust_DEL_finetuning_benefit
+sEH,6,1,0,0.10914553563688635,2.954549053356282,robust_DEL_finetuning_benefit
+PARP2,6,1,0,0.07850764521839491,7.8949801658036955,robust_DEL_finetuning_benefit
+CK1d,5,0,2,0.1490761807670015,3.247424752824429,moderate_or_model_dependent_benefit
+MAPK14,4,1,2,0.023831482676243982,2.106970271604445,moderate_or_model_dependent_benefit
+AuroraA,4,1,2,-0.04134647718694503,0.36368997640349976,moderate_or_model_dependent_benefit
+DDR1,3,4,0,0.14943230741292604,-0.12220544925604566,mixed_or_uncertain
+CK1a,0,4,3,-0.004431429180086609,-0.8261904761904763,poor_DEL_finetuning_candidate
+CAIX,0,2,5,-0.15514374485194,-2.2628571428571425,poor_DEL_finetuning_candidate
