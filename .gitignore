@@ -1,0 +1,141 @@
+# ============================================================
+# Local development environments and package caches
+# ============================================================
+*_env/
+conda_pkgs/
+miniforge*/
+miniconda*/
+
+# Model/download caches
+hf_cache/
+torch_cache/
+**/.cache/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+
+# ============================================================
+# Credentials and private local configuration
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# ============================================================
+# Large model weights and generated feature stores
+# ============================================================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+
+# Large databases and serialized feature files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.lmdb
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Common model/artifact directories
+**/weights/
+**/checkpoints/
+**/ckpts/
+**/pretrained_models/
+**/Pretrained/
+**/Pretrian_models/
+**/Ankh_large_weight/
+**/esm2_150M_local/
+**/ChemBERTa-77M-MTR/
+**/prot_feat/
+**/wandb/
+
+# ============================================================
+# Runtime output and bulky generated predictions
+# ============================================================
+**/logs/
+**/log/
+**/outputs/
+**/output/
+**/Predictions/
+
+# Raw per-run result trees are reproducible and often very large.
+# Curated analysis directories and top-level CSV/PNG/PDF summaries remain included.
+HitScreen/results/
+ColdstartCPI/Results/
+GraphBAN/result/
+MMF_DTI/results/
+
+# Slurm/runtime logs
+*.out
+*.err
+slurm-*.out
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.bak_*
+*.swp
+*.swo
+
+# ============================================================
+# Archives, installers, and build artifacts
+# ============================================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+miniconda.sh
+
+build/
+dist/
+*.egg-info/
+
+# ============================================================
+# Large local dataset collections at the workspace root
+# ============================================================
+/CHEMBL_with_DUDE_csv_*/
+/chembl_33_sqlite_extracted/
+/chembl数据/
+/del数据/
+
+
+# Project-local raw/generated data. If a small example is needed, place it
+# under examples/ or sample_data/ so it can be committed explicitly.
+HitScreen/data/
+HitScreen/CHEMBL_with_DUDE/
+ColdstartCPI/Datasets/
+ColdstartCPI/Source_Data/
+MMF_DTI/data/
+GraphBAN/Data/
+
