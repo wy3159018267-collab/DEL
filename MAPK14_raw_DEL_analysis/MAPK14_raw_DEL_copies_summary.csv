@@ -1,0 +1,2 @@
+metric,n,mean,median,q25,q75,q90,q95,min,max
+selection_unique_copies,1970,31.11269035532995,17.0,12.0,33.0,65.0,98.0,10.0,428.0

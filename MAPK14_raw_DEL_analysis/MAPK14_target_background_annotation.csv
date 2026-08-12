@@ -1,0 +1,2 @@
+target,protein_family,domain_or_class,binding_pocket,known_ligand_pattern,why_relevant_to_DEL_finetuning,caveat
+MAPK14,Kinase,Mitogen-activated protein kinase 14 / p38 alpha,ATP-binding kinase pocket,p38 MAPK inhibitors often target ATP pocket and hinge/allosteric-adjacent chemotypes,"As a kinase, MAPK14 may benefit when DEL positives capture kinase-pocket chemotypes, but ATP-pocket conservation and chemotype shifts can make model response target- and architecture-dependent.",Lightweight annotation; no structural pocket conservation alignment was performed.

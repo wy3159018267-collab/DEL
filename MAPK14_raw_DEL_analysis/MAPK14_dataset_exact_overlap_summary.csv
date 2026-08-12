@@ -1,0 +1,16 @@
+set_a,set_b,n_a,n_b,unique_a,unique_b,exact_overlap_unique,overlap_fraction_a,overlap_fraction_b
+raw_positive,clean_positive,1969,1962,1962,1962,1962,1.0,1.0
+raw_positive,train_positive,1969,1962,1962,1962,1962,1.0,1.0
+raw_positive,train_negative,1969,19620,1962,19620,0,0.0,0.0
+raw_positive,test_active,1969,4267,1962,4267,0,0.0,0.0
+raw_positive,test_decoy,1969,42670,1962,42668,0,0.0,0.0
+clean_positive,train_positive,1962,1962,1962,1962,1962,1.0,1.0
+clean_positive,train_negative,1962,19620,1962,19620,0,0.0,0.0
+clean_positive,test_active,1962,4267,1962,4267,0,0.0,0.0
+clean_positive,test_decoy,1962,42670,1962,42668,0,0.0,0.0
+train_positive,train_negative,1962,19620,1962,19620,0,0.0,0.0
+train_positive,test_active,1962,4267,1962,4267,0,0.0,0.0
+train_positive,test_decoy,1962,42670,1962,42668,0,0.0,0.0
+train_negative,test_active,19620,4267,19620,4267,10,0.0005096839959225281,0.002343566908835247
+train_negative,test_decoy,19620,42670,19620,42668,834,0.04250764525993884,0.019546264179244398
+test_active,test_decoy,4267,42670,4267,42668,0,0.0,0.0
