@@ -1,0 +1,2 @@
+target,protein_family,domain_or_class,binding_pocket,known_ligand_pattern,why_relevant_to_DEL_finetuning,caveat
+sEH,Hydrolase / enzyme,Soluble epoxide hydrolase; epoxide hydrolase family,Catalytic hydrolase pocket with hydrophobic channel,sEH inhibitors often include urea/amide-like motifs and hydrophobic groups occupying the enzyme pocket,A defined enzymatic pocket and recurring inhibitor motifs may make reliable DEL positives useful for learning transferable sEH-specific ranking signal.,Lightweight annotation; no structural pocket conservation alignment was performed.

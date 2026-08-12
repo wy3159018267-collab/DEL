@@ -1,0 +1,8 @@
+model,best_ft_experiment,EF1_ft_minus_cold,AUPRC_ft_minus_cold,AUROC_ft_minus_cold,effect_interpretation
+HitScreen,Frozen DEL FT 1:5,5.219,0.156,0.202,clear gain
+GraphBAN,V4 FT 1:5 lr=5e-6 ep10,3.2690763052208833,0.1417643329227313,0.4063675820662306,clear gain
+ColdstartCPI,FreezeFeature FT 1:10 lr=1e-5 ep10,2.5622489959839356,0.08325051756659929,0.12643326517506137,clear gain
+PSICHIC,sEH_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to5_stage1_head_pool_attn_lr5e5_ep10_screen,0.752,0.05399999999999999,0.247,clear gain
+DTIAM,cold_v4_frozen_head_ft_ratio_1to10,4.461847389558233,0.1345109741161455,0.2410963081664147,clear gain
+ConPLex,delft_coldv4_ratio_1to10,4.02008032128514,0.1900381499050517,0.09202316416219414,clear gain
+MMF-DTI,delft_coldv4_ratio_1to5,0.3975903614457832,0.0044547749476765985,0.007916479285212497,clear gain
