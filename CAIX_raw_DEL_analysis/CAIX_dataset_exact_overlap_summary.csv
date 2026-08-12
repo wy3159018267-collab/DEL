@@ -1,0 +1,16 @@
+set_a,set_b,n_a,n_b,unique_a,unique_b,exact_overlap_unique,overlap_fraction_a,overlap_fraction_b
+raw_positive,clean_positive,13020,966,13014,966,966,0.07422775472568004,1.0
+raw_positive,train_positive,13020,966,13014,966,966,0.07422775472568004,1.0
+raw_positive,train_negative,13020,9660,13014,9660,0,0.0,0.0
+raw_positive,test_active,13020,4771,13014,4771,1,7.68403258029814e-05,0.00020959966464053657
+raw_positive,test_decoy,13020,47710,13014,47710,0,0.0,0.0
+clean_positive,train_positive,966,966,966,966,966,1.0,1.0
+clean_positive,train_negative,966,9660,966,9660,0,0.0,0.0
+clean_positive,test_active,966,4771,966,4771,1,0.0010351966873706005,0.00020959966464053657
+clean_positive,test_decoy,966,47710,966,47710,0,0.0,0.0
+train_positive,train_negative,966,9660,966,9660,0,0.0,0.0
+train_positive,test_active,966,4771,966,4771,1,0.0010351966873706005,0.00020959966464053657
+train_positive,test_decoy,966,47710,966,47710,0,0.0,0.0
+train_negative,test_active,9660,4771,9660,4771,1,0.00010351966873706004,0.00020959966464053657
+train_negative,test_decoy,9660,47710,9660,47710,383,0.039648033126293995,0.00802766715573255
+test_active,test_decoy,4771,47710,4771,47710,0,0.0,0.0

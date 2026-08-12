@@ -1,0 +1,7 @@
+metric,value
+raw_n,13020
+raw_unique_scaffold,2612
+raw_scaffold_ratio,0.20061443932411674
+raw_top1_scaffold_frac,0.035637480798771125
+raw_top5_scaffold_frac,0.16689708141321044
+raw_top10_scaffold_frac,0.2536098310291859
