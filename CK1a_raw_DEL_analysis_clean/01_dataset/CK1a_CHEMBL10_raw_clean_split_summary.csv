@@ -1,0 +1,11 @@
+metric,value
+raw_rows,2000.0
+raw_positive_Y1,2000.0
+train_rows,17600.0
+val_rows,4400.0
+finetune_positive,2000.0
+finetune_negative,20000.0
+finetune_neg_pos_ratio,10.0
+test_active,129.0
+test_decoy,1290.0
+test_decoy_active_ratio,10.0

@@ -1,0 +1,6 @@
+metric,n,mean,median,min,max,note
+Y,2000,1.0,1.0,1.0,1.0,Only classification label is numeric; all supplied raw rows are positive.
+sel_sum,0,,,,,Not available in CK1a supplied file.
+ctrl,0,,,,,Not available in CK1a supplied file.
+log10_R,0,,,,,Not available in CK1a supplied file.
+read_count_or_enrichment,0,,,,,Not available in CK1a supplied file.

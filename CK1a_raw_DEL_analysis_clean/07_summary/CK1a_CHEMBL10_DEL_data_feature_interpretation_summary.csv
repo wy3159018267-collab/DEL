@@ -1,0 +1,9 @@
+section,result
+data scale,2000 DEL positives and 20000 actual finetune negatives; test set has 129 actives and 1290 decoys.
+raw DEL signal,Raw enrichment/read-count cannot be evaluated because the supplied CK1a file is already positive-only and has no enrichment/read-count columns.
+positive-negative separability,DEL positive to actual finetune negative nearest Tanimoto median=0.276; shared positive/negative scaffolds=36; only 3.0% positives on shared scaffolds. Boundary is easy.
+DEL-test relation,"Test active to DEL positive nearest Tanimoto median=0.224, while test active to finetune negative median=0.269. Test actives are not closer to DEL positives."
+test active chemotype,"Test active nearest-active median=0.681; active set contains clustered chemotypes, but these are weakly covered by DEL positives."
+physchem shift,DEL positives are larger and more flexible than test actives: MW median 488.5 vs 374.5; RotB 9 vs 4; HeavyAtom 35 vs 27; TPSA 99.9 vs 86.3.
+model gain,Only 0/7 models have both EF1 and AUPRC improvement vs cold_v4 under the selected best-ft rule; effect is model-dependent and not a stable DEL benefit.
+overall,"CK1a is a weak/unstable DEL-finetuning case: enough positives, but positive-negative boundary is too easy, DEL-test chemistry is mismatched, and raw DEL signal quality cannot be audited from the provided positive-only file."

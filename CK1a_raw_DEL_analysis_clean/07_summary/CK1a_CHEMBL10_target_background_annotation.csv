@@ -1,0 +1,2 @@
+target,gene,family,subfamily,test_set,comment
+CK1a,CSNK1A1,kinase,casein kinase 1,CK1a_CHEMBL_with_DUDE 1:10,"Kinase target. Current supplied DEL file is positive-only, so raw enrichment/read-count and building-block bias cannot be assessed from this file; analysis focuses on actual finetune positives vs actual finetune negatives, DEL-test structural relation, physchem shift, and cross-model gain."
