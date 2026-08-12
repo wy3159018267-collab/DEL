@@ -1,0 +1,19 @@
+BRD4_analysis_item,CK1d_status,CK1d_file_or_reason
+raw numeric summary,generated,02_raw_DEL/CK1d_raw_DEL_numeric_summary.csv
+raw RDKit property summary,generated,02_raw_DEL/CK1d_raw_DEL_rdkit_property_summary.csv
+raw scaffold+dataset summary,generated,02_raw_DEL/CK1d_raw_DEL_scaffold_and_dataset_summary.csv
+raw top scaffolds,generated,02_raw_DEL/CK1d_raw_DEL_top_scaffolds.csv/png
+raw enrichment distributions,not_applicable,CK1d supplied raw file lacks enrichment/read-count/control columns.
+building block top A/B/C,not_applicable,CK1d supplied raw file lacks building-block columns.
+positive-negative nearest similarity,generated,03_pos_neg/CK1d_current_active_inactive_nearest_similarity.png
+positive-negative similarity summary,generated,03_pos_neg/CK1d_current_1to10_DUDE_negative_pos_neg_similarity_summary.csv
+positive-negative scaffold overlap,generated,03_pos_neg/CK1d_current_1to10_DUDE_negative_scaffold_overlap.png/csv
+trainval-test exact overlap,generated,04_train_test/CK1d_current_trainval_vs_CHEMBL10_test_exact_overlap_summary.csv
+trainval-test nearest summary,generated,04_train_test/CK1d_current_trainval_vs_CHEMBL10_test_nearest_similarity_summary.csv
+test active to DEL positive similarity,generated,04_train_test/CK1d_test_active_to_DEL_active_similarity.png
+test active internal chemotype,generated,04_train_test/CK1d_test_active_nearest_active_similarity.png
+test active scaffold summary,generated,04_train_test/CK1d_test_active_top_scaffolds.csv/png
+physchem summary+plots,generated,05_physchem/CK1d_current_trainval_test_property_summary.csv/pngs
+model gain linked features,generated,06_model/CK1d_model_gain_linked_to_DEL_features.csv
+target background,generated,07_summary/CK1d_target_background_annotation.csv
+feature interpretation summary,generated,07_summary/CK1d_DEL_data_feature_interpretation_summary.csv

@@ -1,0 +1,4 @@
+metric,value
+train_shared_scaffold_count,30.0
+train_pos_compounds_on_shared_scaffold_frac,0.026
+train_neg_compounds_on_shared_scaffold_frac,0.02545

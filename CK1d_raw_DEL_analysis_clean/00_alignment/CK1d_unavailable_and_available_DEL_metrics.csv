@@ -1,0 +1,7 @@
+metric_family,BRD4_example,CK1d_status,reason
+raw DEL enrichment/readout,"sel_sum, ctrl, log10_R, rep_gt_ctrl",not available,"CK1d raw file only has ID, SMILES, Y, Protein, target_cluster; all Y=1."
+building block coverage/bias,"ID_A, ID_B, ID_C top building blocks",not available,No cycle/building-block/synthon columns in CK1d file.
+label threshold separation,enrichment threshold used to define positives,not inferable from supplied file,The supplied CK1d file is already positive-only/classified; no raw inactive/read-count distribution.
+positive vs actual finetune negative,"nearest Tanimoto, scaffold overlap",available and computed,Uses train.csv + val.csv Y=1 vs Y=0.
+DEL-test relationship,"exact overlap, nearest Tanimoto, test active chemotype",available and computed,Uses CK1d_CHEMBL_with_DUDE.csv active/decoy.
+physchem shift,MW/LogP/TPSA/HBD/HBA/RotB boxplots,available and computed,RDKit descriptors computed for train positive/negative and test active/decoy.
