@@ -1,0 +1,17 @@
+metric,value
+train_pos_n,1000
+train_neg_n,10000
+train_neg_pos_ratio,10.0
+train_pos_unique_scaffold,964
+train_pos_scaffold_ratio,0.964
+train_pos_top1_scaffold_frac,0.006
+train_pos_top5_scaffold_frac,0.02
+train_neg_unique_scaffold,7711
+train_shared_scaffold_count,8
+train_pos_compounds_on_shared_scaffold_frac,0.019
+test_active_n,1420
+test_active_unique_scaffold,407
+test_active_scaffold_ratio,0.28661971830985916
+test_active_top1_scaffold_frac,0.08873239436619719
+test_active_top5_scaffold_frac,0.3077464788732394
+test_active_top10_scaffold_frac,0.4147887323943662
