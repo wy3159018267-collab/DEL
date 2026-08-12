@@ -1,0 +1,13 @@
+metric,value
+raw_rows,57933.0
+clean_rows,44769.0
+clean_positive,1387.0
+clean_negative,43382.0
+train_rows,12023.0
+val_rows,3234.0
+finetune_positive,1387.0
+finetune_negative,13870.0
+finetune_neg_pos_ratio,10.0
+test_active,495.0
+test_decoy,24934.0
+test_decoy_active_ratio,50.37171717171717

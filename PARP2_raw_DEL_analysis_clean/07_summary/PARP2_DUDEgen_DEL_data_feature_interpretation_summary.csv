@@ -1,0 +1,9 @@
+section,result
+data scale,"Raw rows=57933, strict clean positives=1387, strict clean negatives=43382; DUDEgen finetune has 1387 positives and 13870 negatives (10.0:1); test has 495 actives and 24934 decoys."
+raw DEL signal,"NSC separates strict positives and negatives strongly: positive median=4.940, negative median=0.559."
+positive-negative separability,"Using actual DUDEgen finetune negatives, DEL positive to negative nearest Tanimoto median=0.286; shared scaffolds=2; 1.4% positives on shared scaffolds."
+DEL-test relation,Test active to DEL positive nearest Tanimoto median=0.281; test active to DUDEgen negative median=0.273.
+test active chemotype,Test active nearest-active median=0.809; scaffold ratio=0.513.
+physchem shift,DEL positives vs test actives: MW median 445.5 vs 424.5; TPSA 123.7 vs 94.2; RotB 8 vs 4.
+model gain,6/7 models have both EF1 and AUPRC improvement vs cold_v4 in DUDEgen PARP2 result table.
+overall,"PARP2 with DUDEgen 1:10 negatives has strong raw DEL NSC label signal; the actual DUDEgen positive-negative boundary is easier than the strict-cleaned negative setting, so downstream gains should be interpreted using this new split."

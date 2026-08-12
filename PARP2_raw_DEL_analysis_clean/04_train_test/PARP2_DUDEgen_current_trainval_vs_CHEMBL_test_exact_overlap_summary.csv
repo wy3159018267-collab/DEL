@@ -1,0 +1,5 @@
+set_a,set_b,n_a,n_b,unique_a,unique_b,exact_overlap_unique,overlap_fraction_a,overlap_fraction_b,comparison
+train_positive_DEL,test_active_CHEMBL,1387,495,1384,495,0,0.0,0.0,train_positive_vs_test_active
+train_positive_DEL,test_decoy_DUDE,1387,24934,1384,24934,0,0.0,0.0,train_positive_vs_test_decoy
+train_negative_DUDEgen,test_active_CHEMBL,13870,495,13870,495,0,0.0,0.0,train_negative_vs_test_active
+train_negative_DUDEgen,test_decoy_DUDE,13870,24934,13870,24934,304,0.021917808219178082,0.012192187374669126,train_negative_vs_test_decoy

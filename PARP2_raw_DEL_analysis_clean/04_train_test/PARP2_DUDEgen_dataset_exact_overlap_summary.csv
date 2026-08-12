@@ -1,0 +1,16 @@
+set_a,set_b,n_a,n_b,unique_a,unique_b,exact_overlap_unique,overlap_fraction_a,overlap_fraction_b
+clean_positive_DEL,clean_negative_strict,1387,43382,1384,43320,1,0.000722543352601156,2.3084025854108955e-05
+clean_positive_DEL,train_positive_DEL,1387,1387,1384,1384,1384,1.0,1.0
+clean_positive_DEL,train_negative_DUDEgen,1387,13870,1384,13870,0,0.0,0.0
+clean_positive_DEL,test_active_CHEMBL,1387,495,1384,495,0,0.0,0.0
+clean_positive_DEL,test_decoy_DUDE,1387,24934,1384,24934,0,0.0,0.0
+clean_negative_strict,train_positive_DEL,43382,1387,43320,1384,1,2.3084025854108955e-05,0.000722543352601156
+clean_negative_strict,train_negative_DUDEgen,43382,13870,43320,13870,0,0.0,0.0
+clean_negative_strict,test_active_CHEMBL,43382,495,43320,495,0,0.0,0.0
+clean_negative_strict,test_decoy_DUDE,43382,24934,43320,24934,0,0.0,0.0
+train_positive_DEL,train_negative_DUDEgen,1387,13870,1384,13870,0,0.0,0.0
+train_positive_DEL,test_active_CHEMBL,1387,495,1384,495,0,0.0,0.0
+train_positive_DEL,test_decoy_DUDE,1387,24934,1384,24934,0,0.0,0.0
+train_negative_DUDEgen,test_active_CHEMBL,13870,495,13870,495,0,0.0,0.0
+train_negative_DUDEgen,test_decoy_DUDE,13870,24934,13870,24934,304,0.021917808219178082,0.012192187374669126
+test_active_CHEMBL,test_decoy_DUDE,495,24934,495,24934,0,0.0,0.0

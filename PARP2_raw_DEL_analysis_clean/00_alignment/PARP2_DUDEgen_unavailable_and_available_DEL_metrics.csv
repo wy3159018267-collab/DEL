@@ -1,0 +1,7 @@
+metric_family,BRD4_example,PARP2_status,reason
+raw DEL enrichment/readout,"sel_sum, ctrl, log10_R, rep_gt_ctrl",partly available,Raw PARP2 has NSC but not sel_sum/ctrl/log10_R. NSC by strict label was computed.
+building block coverage/bias,"ID_A, ID_B, ID_C top building blocks",not available,No cycle/building-block/synthon columns in supplied files.
+label threshold separation,positive/negative enrichment distribution,available via strict labels,Cleaned strict labels merged with raw NSC.
+positive vs actual finetune negative,"nearest Tanimoto, scaffold overlap",available and computed,Uses PARP2_DUDEgen_1to10 train.csv + val.csv Y=1 vs Y=0.
+DEL-test relationship,"exact overlap, nearest Tanimoto, test active chemotype",available and computed,Uses PARP2_CHEMBL_with_DUDE.csv active/decoy.
+physchem shift,MW/LogP/TPSA/HBD/HBA/RotB boxplots,available and computed,RDKit descriptors computed for train positive/negative and test active/decoy.

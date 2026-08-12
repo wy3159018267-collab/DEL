@@ -1,0 +1,2 @@
+target,gene,family,subfamily,test_set,comment
+PARP2,PARP2,enzyme,PARP/ADP-ribosyltransferase,PARP2_CHEMBL_with_DUDE,"Raw data has NSC readout and strict binary cleaned labels. Current finetune negatives are DUDE-generated 1:10 negatives, so positive-negative separability is evaluated using actual finetune Y=0 samples."
