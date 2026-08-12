@@ -1,0 +1,13 @@
+metric,value
+test_total,2435
+test_pos,221
+test_neg,2214
+raw_positive_unique_canonical,1107
+clean_pos_unique_canonical,1107
+clean_neg_unique_canonical,5535
+test_pos_exact_overlap_raw_positive,221
+test_pos_exact_overlap_clean_pos,221
+test_pos_exact_overlap_clean_neg,0
+test_neg_exact_overlap_raw_positive,0
+test_neg_exact_overlap_clean_pos,0
+test_neg_exact_overlap_clean_neg,0

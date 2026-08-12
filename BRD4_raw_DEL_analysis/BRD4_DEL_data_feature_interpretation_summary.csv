@@ -1,0 +1,17 @@
+feature_category,metric,value,interpretation
+DEL enrichment signal,raw_positive_n,1107,BRD4 has enough DEL positives for target-specific fine-tuning.
+DEL enrichment signal,median_log10_R,1.349,Positive labels have clear enrichment signal.
+DEL enrichment signal,ctrl_zero_fraction,99.19%,Control/background read count is very low.
+DEL enrichment signal,sel_sum_log10_R_Pearson,0.891,High enrichment is supported by selection read counts.
+Replicate support,rep_gt_ctrl_ge2_fraction,100%,All positives have at least two supported selection/control comparisons in this processed set.
+Chemical diversity,positive_unique_scaffold,908,DEL positives cover many scaffolds.
+Chemical diversity,positive_scaffold_ratio,0.820,Positive set is not dominated by repeated scaffolds.
+Chemical diversity,active_active_pairwise_median_Tanimoto,0.337,Positive molecules are moderately diverse.
+Current 1:10 pos-neg separability,active_inactive_nearest_median_Tanimoto,0.272,Current DUD-E negatives are structurally far from DEL positives.
+Current 1:10 pos-neg separability,shared_Murcko_scaffold,0,No scaffold overlap between current positives and negatives.
+DEL-test relationship,test_active_exact_overlap_train_positive,0,No exact molecule leakage from DEL positives to test actives.
+DEL-test relationship,test_active_nearest_train_positive_median_Tanimoto,0.221,Test actives are structurally distant from DEL positives.
+Train-test leakage check,train_negative_exact_overlap_test_decoy,836,Some DUD-E negatives in fine-tuning also occur in test decoys; report this as a limitation/leakage risk for negative class.
+Physicochemical shift,MW_median_train_positive_vs_train_negative,543.6 vs 456.5,DEL positives are larger than current negatives; model may learn size-related differences.
+Physicochemical shift,TPSA_median_train_positive_vs_train_negative,128.7 vs 92.3,DEL positives are more polar than current negatives.
+Physicochemical shift,RotB_median_train_positive_vs_train_negative,9 vs 6,DEL positives are more flexible than current negatives.

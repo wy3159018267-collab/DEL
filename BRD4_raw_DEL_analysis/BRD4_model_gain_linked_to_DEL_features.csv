@@ -1,0 +1,8 @@
+model,best_ft_experiment,EF1_ft_minus_cold,AUPRC_ft_minus_cold,AUROC_ft_minus_cold,effect_interpretation
+HitScreen,Frozen DEL FT 1:1,2.833000000000001,0.376,0.18900000000000006,"clear gain; consistent with reliable DEL signal, but current easy negatives/physicochemical shift should be considered."
+GraphBAN,V4 FT 1:1 lr=5e-6 ep10,3.9448275862068964,0.1575417418026251,0.37892884400176663,"clear gain; consistent with reliable DEL signal, but current easy negatives/physicochemical shift should be considered."
+ColdstartCPI,FreezeFeature FT 1:10 lr=1e-5 ep10,6.170114942528736,0.22860409836187662,0.24702886909422495,"clear gain; consistent with reliable DEL signal, but current easy negatives/physicochemical shift should be considered."
+PSICHIC,BRD4_CHEMBL10_HitScreen_cold_v4_ft_ratio_1to5_stage1_head_pool_attn_lr5e6_ep10_screen,6.779,0.28200000000000003,0.14400000000000002,"clear gain; consistent with reliable DEL signal, but current easy negatives/physicochemical shift should be considered."
+DTIAM,cold_v4_frozen_head_ft_ratio_1to10,6.385057471264367,0.3817852780948333,0.29724938963122793,"clear gain; consistent with reliable DEL signal, but current easy negatives/physicochemical shift should be considered."
+ConPLex,delft_coldv4_ratio_1to1,3.12295259529355,0.13678086241789522,0.10337427615525185,"clear gain; consistent with reliable DEL signal, but current easy negatives/physicochemical shift should be considered."
+MMF-DTI,delft_coldv4_ratio_1to10,5.070114942528736,0.1382074512675871,0.1847073544837397,"clear gain; consistent with reliable DEL signal, but current easy negatives/physicochemical shift should be considered."

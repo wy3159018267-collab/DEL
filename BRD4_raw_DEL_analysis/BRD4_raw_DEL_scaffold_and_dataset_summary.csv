@@ -1,0 +1,14 @@
+metric,value
+raw_positive_n,1107
+raw_positive_unique_scaffold,908
+raw_positive_scaffold_ratio,0.8202348690153568
+raw_positive_top1_scaffold_frac,0.017163504968383016
+raw_positive_top5_scaffold_frac,0.04336043360433604
+clean_total,6642
+clean_pos,1107
+clean_neg,5535
+clean_pos_ratio,0.16666666666666666
+clean_pos_unique_scaffold,908
+clean_neg_unique_scaffold,3516
+clean_pos_scaffold_ratio,0.8202348690153568
+clean_neg_scaffold_ratio,0.635230352303523

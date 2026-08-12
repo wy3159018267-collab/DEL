@@ -1,0 +1,16 @@
+metric,value
+current_pos_n,1107
+current_neg_n,11070
+current_neg_pos_ratio,10.0
+current_pos_unique_scaffold,908
+current_neg_unique_scaffold,8564
+shared_scaffold_count,0
+pos_scaffold_shared_fraction,0.0
+neg_scaffold_shared_fraction,0.0
+pos_compounds_on_shared_scaffold,0
+pos_compounds_on_shared_scaffold_fraction,0.0
+neg_compounds_on_shared_scaffold,0
+neg_compounds_on_shared_scaffold_fraction,0.0
+current_vs_backup_pos_overlap,1107
+current_vs_backup_neg_overlap,0
+current_neg_new_beyond_backup,11070

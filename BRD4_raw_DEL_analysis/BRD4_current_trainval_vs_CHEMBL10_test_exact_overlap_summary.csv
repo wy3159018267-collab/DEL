@@ -1,0 +1,5 @@
+set_a,set_b,n_a,n_b,unique_a,unique_b,exact_overlap_unique,overlap_fraction_of_a_unique,overlap_fraction_of_b_unique
+train_positive,test_active,1107,7906,1107,7906,0,0.0,0.0
+train_positive,test_decoy,1107,79060,1107,79059,0,0.0,0.0
+train_negative,test_active,11070,7906,11070,7906,0,0.0,0.0
+train_negative,test_decoy,11070,79060,11070,79059,836,0.07551942186088527,0.01057438115837539
