@@ -1,0 +1,2 @@
+metric,n,mean,median,q25,q75,q90,q95,min,max
+copies,216,5.375,4.0,4.0,5.0,7.0,9.25,4.0,46.0

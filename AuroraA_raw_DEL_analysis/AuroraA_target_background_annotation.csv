@@ -1,0 +1,2 @@
+target,protein_family,domain_or_class,binding_pocket,known_ligand_pattern,why_relevant_to_DEL_finetuning,caveat
+AuroraA,Kinase,Serine/threonine protein kinase; Aurora kinase family,ATP-binding kinase pocket,Kinase inhibitor-like chemotypes targeting conserved ATP pocket,"AuroraA ligands may share kinase ATP-pocket recognition patterns, but kinase pocket conservation can also make target-specific fine-tuning sensitive to negative sampling and chemotype bias.",Lightweight annotation; no structural pocket conservation alignment was performed.
